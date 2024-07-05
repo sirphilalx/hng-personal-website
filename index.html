@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="./app.js" defer></script>
+    <title>Philemon Okpokpa</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-left">
+          <div class="email">
+            <a
+              href="mailto:remotephil.upwork@gmail.com"
+              id="text-to-copy"
+              data-testid="slackEmail"
+              >remotephil.upwork@gmail.com</a
+            >
+            <button class="btn" id="copy-btn">copy</button>
+          </div>
+          <button class="btn" id="cd_download">CV</button>
+        </div>
+
+        <div class="nav-right">
+          <ul class="breadcrumb">
+            <li><a data-testid="hngLink" href="hng.tech/learn">HNG Tech</a></li>
+            <li><a data-testid="keywordLink" href="keyword.dog">Keyword</a></li>
+            <li>
+              <a data-testid="scrapeanywebLink" href="scrapeanyweb.site"
+                >Scrape web</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="wrapper">
+        <div class="image-container">
+          <img
+            class="image"
+            src="./philemonokpokpa.png"
+            alt="profile picture"
+            data-testid="slackProfilePicture"
+          />
+        </div>
+        <div class="heroText">
+          <button data-testid="slackDisplayName" class="btn" id="btn">
+            Philiwonder_
+          </button>
+          <h1>
+            My <span class="curved-underline">goals</span> for the next two
+            years of my development journey
+          </h1>
+          <div class="time">
+            <div class="current-day" data-testid="currentDay"></div>
+            <div class="current-time" data-testid="currentTimeUTC"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="goals">
+      <h2>
+        My <span class="curved-underline">goals</span> for the Next Two Years
+      </h2>
+      <div id="goals-container"></div>
+    </section>
+  </body>
+</html>
